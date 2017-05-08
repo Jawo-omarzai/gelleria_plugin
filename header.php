@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <title><?=isset($title) ? $title : 'Default title for javascript course';?></title>
-<link rel="stylesheet" type="text/css" href="style.less">
+<link rel="stylesheet" type="text/css" href="style.css">
 <script src="../js/less.min.js" type="text/javascript"></script>
 <script src="../js/modernizr.js" type="text/javascript"></script>
 </head>

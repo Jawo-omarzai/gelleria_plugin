@@ -7,7 +7,7 @@ $(document).ready(function(e){
    $(object).children('h4').animate({left: '90px'},1000)
    $(object).children('h3').animate({left: '70px'},300);
    $(object).children('h4').animate({left: '80px'},500)
-   $('#upp_load').animate({width: '100%'},5000, function(e){
+   $('#upp_load').animate({width: '97.7%'},5000, function(e){
 
       $(object).children('h3').animate({left: '80px'},600);
       $(object).children('h3').animate({left: '150%'},200);
