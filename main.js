@@ -1,9 +1,7 @@
 $(document).ready(function(e){
 
+  function ud_slide(object) {
 
-
-
-    function ud_slide(object) {
    $(object).slideDown(3000);
    $(object).children('h3').animate({left: '80px'},800);
    $(object).children('h4').animate({left: '90px'},1000)
@@ -12,7 +10,7 @@ $(document).ready(function(e){
    $('#upp_load').animate({width: '100%'},5000, function(e){
 
       $(object).children('h3').animate({left: '80px'},600);
-      $(object).children('h3').animate({left: '100%'},200);
+      $(object).children('h3').animate({left: '150%'},200);
       $(object).children('h4').animate({left: '90x'},800)
       $(object).children('h4').animate({left: '-750px'}, 300, function(){
 
@@ -31,7 +29,7 @@ $(document).ready(function(e){
   });
 
 };
-
+ ud_slide($('#ud_slider').children('.ud_slide').first());
+console.log('Everything is loaded');
 
 });
-ud_slide($('#ud_slider').children('.ud_slide').first());

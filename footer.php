@@ -2,8 +2,11 @@
   $d = explode("/", trim($path, "/"));
   $srcUrl = '../source.php?dir=' . end($d) . '&amp;file=' . basename($_SERVER["PHP_SELF"]) . '#file';
 ?>
-
+<div id="flash">
 <footer id="footer">
+<div id='img'>
+ <img class="image" src='../images/ME.png' height='100' width='100'>
+ </div>
 <div id='wrapper_center'>
 <p><em>"Se source koden: <a href='<?=$srcUrl?>'>klicka här</a>"</em></p>
 
@@ -45,11 +48,10 @@
   <a href='http://www.w3schools.com/'>w3schools</a>
 </nav>
 </div>
-  <div id='img'>
- <img class="image" src='../images/ME.png' height='50' width='50'>
- </div>
+  
 </footer>
 <script src="../js/jquery.js"></script>
 <script src="main.js"></script>
+</div>
 </body>
 </html>
